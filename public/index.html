@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Préstamo de Libro</title>
+</head>
+<body>
+<h1>Formulario de Préstamo de Libro</h1>
+<form action="/loan" method="POST">
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id" required><br><br>
+
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="lastName">Apellido:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="title">Título del Libro:</label>
+    <input type="text" id="title" name="title" required><br><br>
+
+    <label for="author">Autor del Libro:</label>
+    <input type="text" id="author" name="author"><br><br>
+
+    <label for="editorial">Editorial:</label>
+    <input type="text" id="editorial" name="editorial"><br><br>
+
+    <label for="year">Año:</label>
+    <input type="text" id="year" name="year"><br><br>
+
+    <input type="submit" value="Guardar">
+</form>
+</body>
+</html>
